@@ -1,0 +1,155 @@
+@charset "utf-8";
+.heading {
+	margin-top: 0%;
+	margin-bottom: 0%;
+	border: thick double #EEEDF7;
+	padding-bottom: 1%;
+	background-image: url(assets/blue_pcb_brain.jpg);
+	text-align: center;
+}
+.site_title {
+	color: #F1F0F8;
+	font-family: righteous;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 750%;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	text-align: center;
+	text-shadow: 7px 5px 3px #14122A;
+}
+
+.tag_line {
+	font-family: strong;
+	font-style: normal;
+	font-weight: 600;
+	font-variant: normal;
+	font-size: xx-large;
+	text-align: right;
+}
+
+.main_text {
+	font-family: muli;
+	font-style: normal;
+	font-weight: 700;
+	color: #000000;
+	margin-top: 7px;
+	margin-right: 7px;
+	margin-bottom: 7px;
+	margin-left: 7px;
+}
+
+
+.footer {
+	background-color: #224690;
+	min-height: 33px;
+	clear: both;
+	border-top: thick outset #3744DB;
+	border-right: thick outset #0B0F36;
+	border-left: thick outset #0B0F36;
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	border-bottom: thick inset #224690;
+}
+
+
+
+.nav_bar {
+	text-align: center;
+	background-color: #224690;
+	color: #02000B;
+	font-size: large;
+	font-weight: 700;
+	font-family: droid-sans;
+	font-style: normal;
+	border-left: thick double #2F3DDB;
+	border-right: thick double #2F3DDB;
+	border-bottom: 7px outset #2F3DDB;
+	border-top-color: #2F3DDB;
+	border-top-style: outset;
+	
+}
+.cont_div {
+	background-color: #DFDFDF;
+	border: thick solid #224690;
+
+}
+
+ul li a {
+	width: 100%;
+	text-decoration: none;
+	padding-left: 2%;
+	padding-right: 2%;
+	color: #F1F0F8;
+	text-shadow: 2px 2px 2px #2A2A2A;
+}
+li {
+	display: inline;
+}
+.quest_ol {
+	list-style-position: inside;
+	color: #224690;
+	list-style-type: none;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+.link_imgs {
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	text-align: right;
+	float: right;
+
+}
+table {
+	vertical-align: top;
+	width: 50%;
+	display: block;
+	margin-right: auto;
+	border-top: 7px solid #224690;
+	border-bottom: 7px solid #224690;
+}
+
+
+.contact_info {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: small;
+}
+
+
+.image_center {
+	float: none;
+	display: block;
+	border: thick outset #224690;
+	width: 75%;
+	height: 75%;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+.image_float_left {
+	float: left;
+	border: thick outset #224690;
+	margin-top: 7px;
+	margin-right: 7px;
+	margin-bottom: 7px;
+	margin-left: 7px;
+	width: 50%;
+	border-collapse: collapse;
+	height: 50%;
+}
+.image_float_right {
+	border: thick outset #224690;
+	float: right;
+	margin-top: 7px;
+	margin-right: 7px;
+	margin-bottom: 7px;
+	margin-left: 7px;
+	width: 50%;
+	border-collapse: collapse;
+	height: 50%;
+}
